@@ -1,6 +1,6 @@
 # Curse Word Bleeper
 
-This is a Mac application that automatically detects curse words in video or audio files and bleeps them out.
+This is a Mac/Linux application that automatically detects curse words in video or audio files and bleeps them out.
 
 ## Features
 
@@ -25,7 +25,7 @@ This is a Mac application that automatically detects curse words in video or aud
 2. Install the required Python packages:
 
 ```
-pip install PyQt6 openai-whisper pydub
+pip install -r requirements.txt
 ```
 
 3. Make sure FFmpeg is installed on your system. If not, you can install it using Homebrew:
