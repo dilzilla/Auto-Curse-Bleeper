@@ -74,7 +74,7 @@ class BleepWorker(QRunnable):
             self.signals.progress.emit(70)
 
             audio = AudioSegment.from_file(self.input_file)
-            bleep = AudioSegment.from_wav("bleep.wav")
+            bleep = AudioSegment.from_wav("Bleep.wav")
             
             # Reduce the volume of the bleep sound
             bleep = bleep - self.bleep_volume_reduction
